@@ -1,0 +1,757 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"text",
+				"textDecoration"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"PR",
+				"PRODUCT"
+			],
+			[
+				"paren",
+				"parentcatID"
+			],
+			[
+				"uk",
+				"uk-grid"
+			],
+			[
+				"d",
+				"default"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"tex",
+				"text-transform\tproperty"
+			],
+			[
+				"te",
+				"text-transform\tproperty"
+			],
+			[
+				"uk-p",
+				"uk-padding-remove-horizontal"
+			],
+			[
+				"nav",
+				"uk-navbar-nav"
+			],
+			[
+				"dark",
+				"darkgreen"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/views/layouts/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 924,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/page.blade.php",
+			"settings":
+			{
+				"buffer_size": 335,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Controllers/App.php",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace App\\Controllers;\n\nuse Sober\\Controller\\Controller;\n\nclass AppUser extends Controller\n{\n    public function AppUser()\n    {\n        $user_info = [];\n\n        $current_user = wp_get_current_user();\n        $user_name = $current_user->user_login;\n\n        array_push($user_info, $user_name); //[0]\n\n        return $user_info;\n    }\n}\n",
+			"file": "app/Controllers/User.php",
+			"file_size": 348,
+			"file_write_time": 132570375835642025,
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/partials/header.blade.php",
+			"settings":
+			{
+				"buffer_size": 2094,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/admin.php",
+			"settings":
+			{
+				"buffer_size": 2318,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/assets/styles/tailwind.config.js",
+			"settings":
+			{
+				"buffer_size": 3368,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/app",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/app/Controllers",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/autoload",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/components",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/layouts",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/layouts",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials"
+	],
+	"file_history":
+	[
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/app/setup.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/common/_global.scss",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/main.scss",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/layouts/_sidebar.scss",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/components/_tw-components.scss",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials/header.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials/footer.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials/home-header.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/app/filters.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials/footer-home.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials/content-home.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/layouts/_header.scss",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials/hero.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/layouts/_pages.scss",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/components/_wp-classes.scss",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials/page-header.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/app/Controllers/FrontPage.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/components/_comments.scss",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/assets/styles/components/_buttons.scss",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/layouts/app.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials/content.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/app/admin.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/functions.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/partials/conent-home.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/resources/views/page.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/app/class-walker-nav-menu.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mappinggrief/app/class-walker-nav-menu-edit.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/resources/views/index.blade.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/config/view.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/config/theme.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/config/assets.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/resources/index.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/resources/functions.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/app/setup.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/app/filters.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/app/Controllers/App.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/app/helpers.php",
+		"/Users/ogato/Sites/mg/wp-content/themes/mapping/app/Controllers/FrontPage.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/5ff96055-aed2-4ae3-bb87-6009647678d2/wp-content/themes/intoxica/archive.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/5ff96055-aed2-4ae3-bb87-6009647678d2/wp-content/themes/intoxica/header.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/5ff96055-aed2-4ae3-bb87-6009647678d2/wp-content/themes/intoxica/functions.php",
+		"/Volumes/Safetycat/Work/Intoxica/2020/storefront/functions.php",
+		"/Volumes/Safetycat/Work/Intoxica/2020/storefront/header.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/5ff96055-aed2-4ae3-bb87-6009647678d2/wp-content/themes/intoxica/style.css",
+		"/Volumes/Safetycat/Work/Intoxica/2020/Plugins/woocommerce-side-cart-premium/templates/global/body/qty-input.php",
+		"/Users/ogato/Downloads/tabwoo/tabwoo.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/ffde3b3c-579e-4f72-b0e3-309f83bac5bd/var/sites/i/intoxica.catbox.org.uk/public_html/wp-content/themes/intoxica/functions.php",
+		"/Volumes/Safetycat/Work/Intoxica/2020/functions-5-11-2020.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/0d3ac726-bc1d-4d41-9395-b88d3d0ef998/www/wp-content/themes/spectrumstarter/functions.php",
+		"/Volumes/Safetycat/Work/Intoxica/intoxica_2015.sql",
+		"/Users/ogato/Sites/groundsweb/wp-config.php",
+		"/Users/ogato/Sites/groundsweb/wp-content/themes/groundswell/swift-framework/layout/single-post.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/98a121c1-9c15-41a5-ae06-e357c4741f7d/wp-content/themes/intoxica/functions.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/98a121c1-9c15-41a5-ae06-e357c4741f7d/wp-content/themes/intoxica/partials/secondary-nav.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/98a121c1-9c15-41a5-ae06-e357c4741f7d/wp-content/plugins/dd-post-carousel/public/class-owl-carousel-2-public.php",
+		"/private/var/folders/2y/xh7yhn4j40d6dqwrnj3sgvfw0000gn/T/98a121c1-9c15-41a5-ae06-e357c4741f7d/wp-content/themes/intoxica/woocommerce/cart/cart.php",
+		"/Volumes/Safetycat/Work/Intoxica/2020/Exports August/site move/woocommerce/templates/cart/cart.php",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/colours.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/components/nav-bar.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/navigation/menu.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/components/about-us-hero.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/page-about.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/person/person-bio.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/navigation/header.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/page-sign-in.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/page-members-area.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/front-page/member-page--box.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/hero/hero-home.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/buttons.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/front-page/front-page--box.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/teasers/tease-resource.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/components/filter-bar.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/single.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/hero/hero-single.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/hero/hero-dark.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/components/blocks.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/form.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/hero/hero-about.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/teasers/tease-feeling.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/page-styles.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/functions.php",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/blocks/1-2-image-box-2-2-text-box.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/base.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/footer/footer.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/footer/ctastrip.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/page-about.php",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/components/footer.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/index.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/archive.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/search.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/teasers/tease-search.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/teasers/tease.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/searchform/searchform.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/mu-plugins/cpt-feelings.php",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/archive.php",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/search.php",
+		"/Users/ogato/Sites/sasp2/wp-content/mu-plugins/cpt-members.php",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/archive-feeling.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/pagination/pagination.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/style.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/typography.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/navigation/topnav.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/components/tease-resource.scss",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/archive-member.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/single.php",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/single-story.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/single-resource.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/blocks/journey-item.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/src/index.js",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/page.php",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/hero/hero.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/hero/hero-grey.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/page.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/mu-plugins/cpt-resource.php",
+		"/Users/ogato/Sites/sasp2/wp-content/mu-plugins/cpt-stories.php",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/page-journey.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/container.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/archive-story.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/teasers/tease-member.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/archive-resource.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/teasers/tease-story.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/person/footer.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/archive-.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/teasers/tease-partner.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/front-page.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/case-studies-hero/case-studies-hero.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/pages/page-login.twig",
+		"/Users/ogato/Sites/sasp2/wp-content/themes/sasp20-master/templates/components/filter-bar/filter-bar.twig"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#19217c",
+			"!!}\">\n",
+			"ID"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/layouts/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/page.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Controllers/App.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Controllers/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/partials/header.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/admin.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/assets/styles/tailwind.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mappinggrief.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"header",
+				"resources/views/partials/header.blade.php"
+			],
+			[
+				"funct",
+				"sasp20-master/functions.php"
+			],
+			[
+				"",
+				"sasp20-master/templates/components/teasers/tease-member.twig"
+			],
+			[
+				"fu",
+				"sasp20-master/functions.php"
+			],
+			[
+				"fun",
+				"sasp20-master/functions.php"
+			],
+			[
+				"cta",
+				"sasp20-master/templates/components/footer/ctastrip.twig"
+			],
+			[
+				"tease",
+				"sasp20-master/src/components/tease-resource.scss"
+			],
+			[
+				"pag",
+				"sasp20-master/templates/components/pagination/pagination.twig"
+			],
+			[
+				"men",
+				"sasp20-master/templates/components/navigation/menu.twig"
+			],
+			[
+				"col",
+				"sasp20-master/src/colours.scss"
+			],
+			[
+				"cas",
+				"sasp20-master/templates/components/case-studies-hero/case-studies-hero.twig"
+			],
+			[
+				"case",
+				"sasp20-master/templates/components/case-studies-hero/case-studies-hero.twig"
+			],
+			[
+				"sin",
+				"sasp20-master/single.php"
+			],
+			[
+				"typ",
+				"src/typography.scss"
+			],
+			[
+				"c",
+				"src/colours.scss"
+			],
+			[
+				"ty",
+				"src/typography.scss"
+			],
+			[
+				"f",
+				"functions.php"
+			],
+			[
+				"colo",
+				"src/colours.scss"
+			],
+			[
+				"p",
+				"templates/pages/page.twig"
+			],
+			[
+				"about",
+				"src/components/about-us-hero.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

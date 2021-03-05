@@ -1,0 +1,20 @@
+.btn {
+  @apply bg-primary rounded my-3 px-4 py-3 text-white leading-none ;
+
+  transition: 0.2s ease;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  @apply bg-blue-mid p-3 text-white ;
+
+  transition: 0.2s ease;
+
+  &:hover {
+    @apply bg-primary;
+
+    transition: 0.2s ease;
+  }
+}
